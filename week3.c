@@ -46,7 +46,7 @@ void display()
 void main()
 {
     int choice;
-    int end;
+    int end,data;
     do
     {
         printf("\n1 for enqueue\n2 for dequeue\n3 for display\n4 for exit\n");
@@ -55,7 +55,6 @@ void main()
         switch(choice)
         {
             case 1:
-                int data;
                 printf("enter the element:");
                 scanf("%d",&data);
                 enqueue(data);
